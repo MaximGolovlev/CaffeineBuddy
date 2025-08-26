@@ -10,9 +10,22 @@
 		B54DBC112E5CFCD1001E6E3F /* CaffeineBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaffeineBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B54DBC262E5D8B00001E6E3F /* Exceptions for "CaffeineBuddy" folder in "CaffeineBuddy" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				App/Info.plist,
+			);
+			target = B54DBC102E5CFCD1001E6E3F /* CaffeineBuddy */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B54DBC132E5CFCD1001E6E3F /* CaffeineBuddy */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B54DBC262E5D8B00001E6E3F /* Exceptions for "CaffeineBuddy" folder in "CaffeineBuddy" target */,
+			);
 			path = CaffeineBuddy;
 			sourceTree = "<group>";
 		};
@@ -251,10 +264,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CaffeineBuddy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/CaffeineBuddy/App/Preview Content\"";
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CaffeineBuddy/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +294,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CaffeineBuddy/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"$(SRCROOT)/CaffeineBuddy/App/Preview Content\"";
 				DEVELOPMENT_TEAM = B7HZ65DT3V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/CaffeineBuddy/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

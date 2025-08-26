@@ -6,18 +6,30 @@
 //
 
 import SwiftUI
+import SwiftData
+import Charts
+import UserNotifications
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        TabView {
+            CaffeineListView()
+                .tabItem {
+                    Label("Tracker", systemImage: "cup.and.saucer")
+                }
+            
+            AnalyticsView()
+                .tabItem {
+                    Label("Analytics", systemImage: "chart.bar")
+                }
         }
-        .padding()
+        .accentColor(ThemeManager.shared.primaryColor)
+        .preferredColorScheme(.dark)
     }
 }
+
+// MARK: - Persistence
+
 
 #Preview {
     ContentView()

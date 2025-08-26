@@ -13,5 +13,13 @@ struct CaffeineBuddyApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(Persistence.shared.modelContainer)
+        
     }
+    
+//    var body: some Scene {
+//        WindowGroup {
+//            DeviceListView()
+//        }
+//    }
 }
